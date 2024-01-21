@@ -1,11 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
     <nav className="nav">
       <div className="nav__menu">
-        <NavLink className="nav__link">Raids</NavLink>
+        <NavLink to="/person" className="nav__link">Person</NavLink>
         <NavLink className="nav__link">Dungeons</NavLink>
         <NavLink className="nav__link">Arena</NavLink>
         <NavLink className="nav__link">RBG</NavLink>

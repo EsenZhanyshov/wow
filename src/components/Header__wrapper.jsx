@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import header__logo from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\header__logo.svg";
-import profile__img from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\header__profile-img.svg";
-import basket from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\header__basket.svg";
-import search_icon from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\input-search__btn.svg";
+import header__logo from "../assets/header__logo.svg";
+import profile__img from "../assets/header__profile-img.svg";
+import basket from "../assets/header__basket.svg";
+import search_icon from "../assets/input-search__btn.svg";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Header__wrapper = () => {

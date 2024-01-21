@@ -17,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 .wrapper {
-  // width: 1325px;
+  width: 1325px;
   margin: 0 auto;
 }
 .container {
@@ -28,10 +28,10 @@ code {
 //!Выше обнуление
 // ! header start
 .header {
-  width: 98vw;
+  width: 100vw;
   margin: 0 auto;
-  height: 100vh;
-  background: url(https://media1.tenor.com/m/6lcXkAGhqlcAAAAd/bolvar-lich-king.gif)
+  height: 99.65vh;
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a2c9a5119194221.609a34023f3be.gif)
     no-repeat;
   object-fit: cover;
   background-size: contain;
@@ -39,7 +39,7 @@ code {
   // background: #090c11;
 }
 .wrapper__bg {
-  width: 98vw;
+  width: 100vw;
 }
 .header__wrapper {
   margin: 0 auto;
@@ -53,6 +53,7 @@ code {
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 .logo {
   width: 199px;
@@ -124,8 +125,6 @@ code {
 .controls {
   display: flex;
   align-items: center;
-}
-.input {
 }
 .controls__inputs {
   width: 160px;
@@ -227,7 +226,7 @@ code {
 // ! Futer start
 .footer {
   // display: none;
-  width: 98vw;
+  width: 100vw;
   margin: 0 auto;
   background: #090c11;
   .footer__blocks {
@@ -358,5 +357,4 @@ code {
   }
 }
 // ! Person
-}
 // ! Futer ends

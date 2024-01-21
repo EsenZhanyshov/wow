@@ -11,7 +11,6 @@ const App = () => {
     <div className="container">
       <Header__wrapper />
       <MainRoutes />
-      <Person/>
       <Footer />
     </div>
   );
