@@ -1,13 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1138px;
+  margin: 0 auto;
+}
+//!Выше обнуление
+
+// ! Futer не трогать
+.footer {
+  width: 100%;
+  background: #090c11;
+  position: absolute;
+  bottom: 0;
+  .footer__blocks {
+    margin-top: 45px;
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+    .footer__block-1 {
+      height: 105px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .footer__block-1 a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .footer__block-2 {
+      height: 105px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .footer__block-2 a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .footer__dev {
+      margin-bottom: 89px;
+      display: flex;
+      justify-content: center;
+    }
+    .footer__dev a {
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+    .footer__block-3 {
+      width: 333px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer__block-3 img:nth-child(1) {
+      margin-bottom: 26px;
+    }
+    .footer__block-3 img:nth-child(2) {
+      width: 257px;
+      margin-bottom: 28px;
+    }
+    .footer__block-3 img:nth-child(3) {
+      width: 220.73px;
+    }
+  }
 }
