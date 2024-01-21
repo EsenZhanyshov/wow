@@ -1,7 +1,7 @@
 import React from "react";
-import social__links from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\social__links.svg";
-import paypal from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\paypal.svg";
-import Trast from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\Trust.svg";
+import social__links from "../assets/social__links.svg";
+import paypal from "../assets/paypal.svg";
+import Trast from "../assets/Trust.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
