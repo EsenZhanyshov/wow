@@ -5,7 +5,7 @@ const Person = () => {
   return (
     <div className="person">
       <div className="person__section1">
-        <h3>BEST OFFERS</h3>
+        <h3>BEST OFFERSS</h3>
         <p>
           For many years now, services have existed on the expanse of PC games
           to help players achieve goals, <br /> complete difficult tasks, gain
