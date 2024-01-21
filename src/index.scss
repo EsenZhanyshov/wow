@@ -17,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 .wrapper {
-  max-width: 1325px;
+  // width: 1325px;
   margin: 0 auto;
 }
 // ! Выше обнуление
@@ -28,7 +28,8 @@ code {
 }
 // ! header start
 .header {
-  width: 100vw;
+  width: 98vw;
+  margin: 0 auto;
   height: 100vh;
   background: url(https://media1.tenor.com/m/6lcXkAGhqlcAAAAd/bolvar-lich-king.gif)
     no-repeat;
@@ -37,11 +38,15 @@ code {
   display: flex;
   // background: #090c11;
 }
+.wrapper__bg {
+  width: 98vw;
+}
 .header__wrapper {
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 1325px;
+  // width: 1325px;
   height: 92px;
 }
 .header__logo {
@@ -222,10 +227,9 @@ code {
 // ! Futer start
 .footer {
   // display: none;
-  width: 100%;
+  width: 98vw;
+  margin: 0 auto;
   background: #090c11;
-  // position: absolute;
-  // bottom: 0;
   .footer__blocks {
     margin-top: 45px;
     margin-bottom: 39px;
