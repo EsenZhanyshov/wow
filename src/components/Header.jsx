@@ -1,15 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+
+import Header__wrapper from "./Header__wrapper";
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="wrapper">
-        <div className="header__wrapper">
-          <div className="header__logo"></div>
-          <Navbar />
-        </div>
-      </div>
+      <div className="wrapper"></div>
     </header>
   );
 };
