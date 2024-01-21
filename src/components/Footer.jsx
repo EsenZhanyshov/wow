@@ -5,10 +5,10 @@ import Trast from "C:\\Users\\user\\Desktop\\wow\\src\\assets\\Trust.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="wrapper">
-        <div class="footer__blocks">
-          <div class="footer__block-1">
+    <footer className="footer">
+      <div className="wrapper">
+        <div className="footer__blocks">
+          <div className="footer__block-1">
             <Link>
               <p>PRIVACY POLICY</p>
             </Link>
@@ -20,7 +20,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          <div class="footer__block-2">
+          <div className="footer__block-2">
             <Link>
               <p>HOW IT WORKS</p>
             </Link>
@@ -31,13 +31,13 @@ const Footer = () => {
               <p>JOBS</p>
             </Link>
           </div>
-          <div class="footer__block-3">
+          <div className="footer__block-3">
             <img src={social__links} alt="#" />
             <img src={paypal} alt="#" />
             <img src={Trast} alt="#" />
           </div>
         </div>
-        <div class="footer__dev">
+        <div className="footer__dev">
           <Link>
             <p>© boost4gold 2022</p>
           </Link>
